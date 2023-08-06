@@ -12,7 +12,7 @@ public class BootstrapSample {
         WebDriver driver = new ChromeDriver();
 
         Eyes eyes = new Eyes();
-        eyes.setApiKey("vbvibDbqrAg6MagqbtSy5103GuMfEcAVeINhGJ0OjTPHY110");
+        eyes.setApiKey("");
         eyes.open(driver,"Wellsfargo", "income-calculator");
 
         driver.get("https://www.wellsfargo.com/goals-credit/debt-to-income-calculator/");
